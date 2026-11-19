@@ -1,0 +1,30 @@
+/*
+  Etapa 4 — pegar en Tienda Nube → Diseño → Edición avanzada de CSS
+  (solo si el panel lo muestra en plan Esencial; ajustar selectores si Rio cambia de versión)
+*/
+
+/* Más aire entre slide y primera sección de productos */
+.home-sections .js-home-section:first-of-type,
+.section-featured {
+  margin-top: 12px;
+}
+
+/* Logo un poco más chico sobre el slide (solo home) */
+.template-home .logo-img,
+body.template-home .logo img {
+  max-height: 44px;
+}
+
+/* Títulos de sección más discretos */
+.section-title,
+h2.section-title {
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Ocultar precio tachado cuando no hay oferta real (compare en cero) */
+.item-price-compare:empty,
+.price-compare.price-compare-zero {
+  display: none !important;
+}

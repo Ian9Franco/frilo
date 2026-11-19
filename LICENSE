@@ -1,0 +1,40 @@
+Copyright (c) 2026 Ian Franco
+
+All rights reserved.
+
+## 1. Client content and brand
+
+The trademarks, trade dress, product names, descriptions, prices, photographs,
+and other commercial content relating to **CIERVO NEGRO** and the store at
+https://www.ciervonegro.com.ar/ are the property of the store owner (the
+"Client"). Nothing in this repository grants any right to use those assets
+except as incidental viewing of this public repository.
+
+## 2. Author's work
+
+The source code in `ciervo-negro/`, `ciervo-negro-edicion/`, and the
+documentation in `docs/` and `PROPUESTAS.md` was created by Ian Franco in the
+context of a freelance engagement for the Client.
+
+You may view and fork this repository for **personal study** or to evaluate the
+author's technical work (portfolio purposes).
+
+You may **not**, without prior written permission from Ian Franco and, where
+applicable, the Client:
+
+- Use the code or documentation in a competing product or another commercial
+  storefront without a separate agreement;
+- Remove attribution or represent this work as your own;
+- Use CIERVO NEGRO branding, copied catalog data, or product imagery from this
+  repo for marketing or resale.
+
+## 3. Disclaimer
+
+THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED. THE AUTHOR AND THE CLIENT ARE NOT LIABLE FOR ANY
+CLAIM OR DAMAGES ARISING FROM USE OF THIS REPOSITORY.
+
+## 4. Licensing inquiries
+
+For permissions beyond portfolio viewing, contact Ian Franco via GitHub:
+https://github.com/Ian9Franco
