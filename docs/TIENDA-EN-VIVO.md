@@ -2,6 +2,8 @@
 
 Mirada a [ciervonegro.com.ar](https://www.ciervonegro.com.ar/) después de que el dueño tocó el diseño. El clon `ciervo-negro` (puerto 5173) es la copia de **antes** de ese cambio. La propuesta está en `ciervo-negro-edicion` (5174).
 
+**Matriz clon vs edición vs vivo (19 nov):** [COMPARATIVA-CLON-EDICION-VIVO.md](./COMPARATIVA-CLON-EDICION-VIVO.md) — incluye la barra «4x3 en buzos» (solo en edición, no en oficial).
+
 ---
 
 ## Qué sigue igual que en el clon
@@ -10,7 +12,7 @@ Mirada a [ciervonegro.com.ar](https://www.ciervonegro.com.ar/) después de que e
 - Encabezado: logo a la izquierda, buscador en ícono, cuenta, carrito, menú hamburguesa (también en computadora). Sobre el ciervo la barra está **transparente** (`head-transparent`, fondo `rgba(0,0,0,0)`). Al bajar, queda sólida `#0A0809` y Rio agrega la clase **`compress`**: la barra se compacta y **el logo se achica**. Los **íconos no escalan** con ese movimiento (es comportamiento del tema, no un bug de la tienda ni nuestro). En el editor suele poder desactivarse el encabezado comprimido / reducido al hacer scroll. La propuesta: barra **sólida** siempre y, si molesta, **sin compress** para que logo e íconos no “bailen”.
 - En el prototipo `ciervo-negro-edicion` **antes** teníamos CSS que cambiaba el tamaño del logo al hacer scroll (etapa 4); eso **sí era nuestro** y ya lo quitamos para no confundir la preview con Rio.
 - Home larga: **Destacados en grilla, 31 productos**. **Novedades en grilla, 25**. No hay carrusel.
-- No hay barra de anuncios.
+- No hay **barra de anuncios** con texto (19 nov: en el HTML de la home no figura «4x3 en buzos» arriba). Las promos `4x3` / envío siguen solo como **etiquetas en cada producto**.
 - No hay feed de Instagram en la home.
 - El video sigue abajo.
 - Etiquetas `4x3` y `Envío gratis` (y en camisetas, `20% OFF`).

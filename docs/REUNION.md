@@ -1,14 +1,20 @@
-# Reunión con el dueño — plan y aprobación
+# Reunión con el dueño — conocernos
 
-El cliente **no ve** esta carpeta ni `PROPUESTAS.md`. Vos llevás el guion; en unos días mostrás preview en host; después implementás en Tienda Nube.
+Todavía **no hay cobro ni alcance cerrado**. El meet es para conocerlo y entender **qué busca** con la web. Recién después se arma trabajo y precio.
 
-**Antes del meet (solo vos):** leé [RIO-Y-LIMITES-TN.md](./RIO-Y-LIMITES-TN.md) — mental model TN, cambio de plantilla, header/hamburguesa/carrito/ficha, qué es editor vs CSS vs FTP. Así no confundís lo del prototipo React con lo publicable.
+El cliente **no ve** esta carpeta. El preview (Vercel / `ciervo-negro-edicion`) son **pruebas chicas**: cosas que Rio + plan Esencial dejan hacer **fácil**, sin código. No es el presupuesto.
+
+**Antes del meet (solo vos):**
+
+- [SI-EL-PIDE.md](./SI-EL-PIDE.md) — si propone algo: ¿lo permite el theme, el plan, o hace falta Impulso/código?
+- [RIO-Y-LIMITES-TN.md](./RIO-Y-LIMITES-TN.md) — header, hamburguesa, ficha, cambio de plantilla.
+- [COMPARATIVA-CLON-EDICION-VIVO.md](./COMPARATIVA-CLON-EDICION-VIVO.md) — qué está solo en el preview (ej. barra «4x3…» arriba) y qué ya está en la tienda real.
 
 ---
 
 ## Mensaje central (30 segundos)
 
-> No hacemos otra web desde cero. La tienda sigue en Tienda Nube con la plantilla Rio que ya usás. Ordenamos la home para que después de la foto del ciervo no sea un catálogo infinito, ponemos atajos a Estadios / Legacy / Retro / Archivo, y pulimos textos, promos y ficha. En unos días te paso un link de vista previa; si te cierra, lo cargamos en el admin de la tienda real. No tocamos pagos ni envíos salvo que vos quieras.
+> La tienda ya está en Tienda Nube, con la plantilla Rio. No hace falta hacer otra web. Miré cómo está hoy y armé un par de pruebas de cosas que se pueden ordenar **desde el diseño**, sin programar: atajos en la home, menos productos en portada, una frase de promo arriba. Quiero escucharte primero: qué te gustaría que pase cuando entra alguien, y después vemos qué de eso entra en lo que ya tenés y qué sería un trabajo más grande.
 
 ---
 
@@ -21,7 +27,24 @@ El cliente **no ve** esta carpeta ni `PROPUESTAS.md`. Vos llevás el guion; en u
 - Las categorías existen en el menú, pero en la portada no hay atajos visuales.
 - La franja de banners promocionales está vacía.
 
-### 2. El plan — 9 mejoras en tres grupos (10 min)
+### 2. Escucharlo (10–15 min) — esto manda
+
+Preguntas útiles (no las sueltes todas):
+
+- ¿Qué te molesta hoy cuando abrís la tienda en el celular?
+- ¿Qué debería entender alguien en los primeros segundos?
+- ¿Hay algo que viste en otra marca y quisieras parecido?
+- ¿El menú por estadios te alcanza o sentís que la gente se pierde?
+
+Anotá literal. Clasificá después con [SI-EL-PIDE.md](./SI-EL-PIDE.md). **No** cierres precio ni “el paquete de 9 puntos” en esta vuelta.
+
+### 3. Si hay tiempo: las pruebas (no el contrato)
+
+Mostrá la tienda real y, si suma, el preview. Marco:
+
+> Son ejemplos de lo que se puede hacer fácil en tu diseño actual. La barra de arriba y los cuatro banners **todavía no están** en la tienda publicada; el link es para mirarlos. Lo que ya activaste vos (segunda foto al pasar el mouse) lo dejamos.
+
+Ideas ya prototipadas (puerta fácil, plan Esencial):
 
 **Home y navegación**
 
@@ -47,13 +70,13 @@ El cliente **no ve** esta carpeta ni `PROPUESTAS.md`. Vos llevás el guion; en u
 | 8 | Instagram en el pie de la home | Solo si el módulo vincula `@_ciervonegro_` |
 | 9 | Ajustes chicos de CSS | Solo si aparece «Edición avanzada de CSS» |
 
-Decile que el mayor impacto visible está en **1, 2 y 3**. El **5** ya lo hizo él.
+Si pregunta qué más se puede sumar sin código: frase institucional en la home, y buscador en barra solo en computadora. Detalle en [PROPUESTAS.md](../PROPUESTAS.md).
 
-Si pregunta qué más se puede sumar en el lugar del hover, hay dos opciones de Rio que hoy no usa: una frase institucional en la home, y el buscador como barra solo en la computadora. Detalle en [PROPUESTAS.md](../PROPUESTAS.md).
+### 4. Si pide algo grande (usar la guía, no improvisar)
 
-### 3. Qué no está en el plan (2 min)
+> Hay cosas que tu diseño ya trae y se prenden en el panel. Otras solo se cambian con código, y eso es otro plan de Tienda Nube y otro trabajo. Si me decís la idea, te digo en cuál de los dos cae.
 
-> No prometemos menú nuevo, filtros por club, ficha como otra marca ni carrito a medida. Eso sería otro plan y otro presupuesto. Acá es configurar Rio bien.
+No prometas menú nuevo, filtros por club, ficha de otra marca ni carrito a medida **como parte de “lo fácil”**. Si lo quiere, es conversación de **Impulso + horas**, no de este experimento. Ver [SI-EL-PIDE.md](./SI-EL-PIDE.md).
 
 **Si pregunta “¿y si cambiamos de plantilla / otro diseño?”** (1 min, sin tecnicismos):
 
@@ -69,36 +92,25 @@ Sobre el link de preview:
 
 Detalle completo: [NO-PROMETER.md](./NO-PROMETER.md).
 
-### 4. Qué necesitás del dueño (5 min)
+### 5. Qué podés pedir al final (sin cerrar venta)
 
-- [ ] Aprobación del alcance (o puntos a sacar)
-- [ ] **4 imágenes** para banners (o OK a recortar de fotos de producto)
-- [ ] Criterio Destacados / Novedades (él elige o confía en vos)
-- [ ] Texto de la barra (o aprueba el ejemplo)
-- [ ] Acceso admin (diseño + páginas) **después** del OK del host
-- [ ] (Opcional) 10 min en el panel juntos para confirmar CSS e Instagram
+- [ ] Qué le importó de verdad (anotalo)
+- [ ] Si quiere que le pases **después** un alcance y un número, sobre **eso** (no sobre las 9 ideas completas)
+- [ ] Acceso al admin **solo cuando** haya acuerdo de trabajo (diseño + páginas)
+- [ ] Fotos de banners / textos: recién si el alcance incluye eso
 
-### 5. Timeline que le contás
+No fijes fecha de “subir a la tienda” en este meet.
 
-| Cuándo | Qué |
-| --- | --- |
-| Hoy | Acuerdo de plan |
-| 3–4 días | Link en host — vista previa |
-| Tras su OK | Implementación en ciervonegro.com.ar |
-| Orden de trabajo | Ver [IMPLEMENTACION-TIENDA-NUBE.md](./IMPLEMENTACION-TIENDA-NUBE.md) |
+### 6. Cierre
 
-No fijar fecha de producción hasta aprobar preview + tener imágenes.
-
-### 6. Cierre — pedir aprobación explícita
-
-> ¿Apruebas este alcance para la preview y, si te gusta, para la tienda real? ¿Algo que no quieras (video, Instagram, cantidad en home)?
+> Me queda claro [repetí en una frase lo que él quiere]. Te armo una propuesta con lo que se puede hacer en tu plan actual y, si algo queda afuera, te lo marco aparte. ¿Te parece?
 
 ---
 
 ## Qué no mostrar hoy
 
 - Repos, `PROPUESTAS.md`, puertos locales
-- React, Esencial vs Impulso, FTP
+- React, FTP, lista de planes (salvo que **él** pida algo que no entra en el editor: ahí sí nombrás “otro plan con código”, sin dar clase)
 - La matriz “header / hamburguesa / qué no podés” — es para vos, no para leer en voz alta
 
 **Sí puede servir:** la tienda en vivo en el celular (scroll home + menú Estadios). Si abrís el menú hamburguesa, mostrale que **el contenido** son sus categorías (Estadios, Legacy…) — eso sí se mantiene; lo que no vendemos es **otro** menú con otro dibujo o animación.
@@ -117,7 +129,9 @@ No fijar fecha de producción hasta aprobar preview + tener imágenes.
 
 ---
 
-## Checklist de aprobación (anotar en el meet)
+## Notas del meet (interés, no contrato)
+
+Marcá solo lo que **él** dijo que le importa. Vacío = no lo propusiste como venta.
 
 | Punto | Sí / No / Ajuste | Notas |
 | --- | --- | --- |
@@ -131,7 +145,7 @@ No fijar fecha de producción hasta aprobar preview + tener imágenes.
 | 8 Instagram (si conecta) | | |
 | 9 CSS chico (si hay campo) | | |
 
-Firma o OK por mail/WhatsApp: _______________  Fecha: _______________
+Quiere propuesta con número: sí / no / después. Fecha: _______________
 
 ---
 
@@ -140,18 +154,9 @@ Firma o OK por mail/WhatsApp: _______________  Fecha: _______________
 ```
 Hola [nombre],
 
-Resumen de lo que acordamos para CIERVO NEGRO:
+Gracias por el rato. Me quedó que lo que más te importa es: [una frase con lo que dijo él].
 
-• Ordenar la home: 4 banners (Estadios, Legacy, Herencia Retro, Archivo), menos productos en portada en carrusel, barra «[texto]».
-• Mantener la foto del ciervo; [video: como está / evaluar sacarlo].
-• Activar segunda foto en grilla, guía de talles en ficha, y actualizar textos de Quiénes somos / guía / FAQ.
-• Opcional según tu panel: Instagram en home, retoques CSS chicos.
-
-Próximo paso: en [fecha] te paso un link de vista previa. Si te cierra, lo cargamos en la tienda real en Tienda Nube (misma plantilla Rio, sin cambiar pagos ni envíos).
-
-Necesito de tu lado: [4 imágenes / OK a recortes] y [lista destacados o confianza en criterio].
-
-Cualquier cambio al alcance, avisame antes de la preview.
+La tienda sigue en Tienda Nube con Rio. Lo que vimos en el link son ejemplos de cosas que se pueden ordenar desde el diseño, sin rehacer el sitio. Te armo una propuesta sobre [eso], y si algo pide otro tipo de trabajo te lo marco aparte.
 
 Saludos,
 [tu nombre]
@@ -161,6 +166,8 @@ Saludos,
 
 ## Cheat sheet (una línea)
 
-**Prometer:** banners, home corta, barra, rollover, talles, textos, ciervo, IG/CSS solo si el panel lo permite.
+**Este meet:** escuchar. El preview = ejemplos fáciles en Rio + Esencial, no el contrato.
 
-**No prometer:** menú/ficha/carrito custom, filtros, «subir el React». Ver [NO-PROMETER.md](./NO-PROMETER.md).
+**Si pide algo:** [SI-EL-PIDE.md](./SI-EL-PIDE.md) — editor (A), CSS (B), Impulso/código (C), otra vía (D).
+
+**No prometer en el paquete fácil:** menú/ficha/carrito custom, filtros a medida, «subir el React». Ver [NO-PROMETER.md](./NO-PROMETER.md).

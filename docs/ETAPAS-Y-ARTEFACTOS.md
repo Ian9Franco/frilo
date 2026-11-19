@@ -37,6 +37,7 @@ Mapa entre [PROPUESTAS.md](../PROPUESTAS.md), el prototipo `ciervo-negro-edicion
 | --- | --- |
 | Texto barra | `catalog.json` → `store.announcement` |
 | Componente | `ciervo-negro-edicion/src/components/AnnouncementBar.jsx` |
+| ¿En vivo? | **No** (barra superior). Etiquetas `4x3` en productos **sí**. Ver [COMPARATIVA-CLON-EDICION-VIVO.md](./COMPARATIVA-CLON-EDICION-VIVO.md). |
 | Rollover | `ProductCard.jsx` + `.img-hover` en `styles.css`. En la tienda real ya está prendido; el clon `ciervo-negro` no lo tiene. Ver [TIENDA-EN-VIVO.md](./TIENDA-EN-VIVO.md). |
 
 ---
