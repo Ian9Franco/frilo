@@ -59,6 +59,15 @@ npm run build
 
 La carpeta `dist/` puede subirse a cualquier host estático (Vercel, Netlify, Cloudflare Pages, etc.). Es **solo demostración**; no conecta carrito ni stock real.
 
+### Vercel (repo `Ian9Franco/frilo`)
+
+1. Importar el repo en [vercel.com](https://vercel.com).
+2. **Root Directory:** `ciervo-negro-edicion` (monorepo).
+3. Framework preset: **Vite** (build `npm run build`, output `dist`).
+4. `vercel.json` en esa carpeta ya trae rewrites para React Router (rutas como `/productos/...`).
+
+Sin root directory correcto, Vercel intenta buildear la raíz y falla.
+
 Variables: el catálogo viene de `catalog.json` scrapeado; el stock en la preview **no** es en vivo (ver aviso en ficha del prototipo).
 
 ---

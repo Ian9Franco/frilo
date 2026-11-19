@@ -2,6 +2,8 @@
 
 El cliente **no ve** esta carpeta ni `PROPUESTAS.md`. Vos llevás el guion; en unos días mostrás preview en host; después implementás en Tienda Nube.
 
+**Antes del meet (solo vos):** leé [RIO-Y-LIMITES-TN.md](./RIO-Y-LIMITES-TN.md) — mental model TN, cambio de plantilla, header/hamburguesa/carrito/ficha, qué es editor vs CSS vs FTP. Así no confundís lo del prototipo React con lo publicable.
+
 ---
 
 ## Mensaje central (30 segundos)
@@ -53,6 +55,14 @@ Si pregunta qué más se puede sumar en el lugar del hover, hay dos opciones de 
 
 > No prometemos menú nuevo, filtros por club, ficha como otra marca ni carrito a medida. Eso sería otro plan y otro presupuesto. Acá es configurar Rio bien.
 
+**Si pregunta “¿y si cambiamos de plantilla / otro diseño?”** (1 min, sin tecnicismos):
+
+> El catálogo y las categorías quedan, pero la portada, colores y encabezado hay que armarlos de nuevo en el diseño nuevo. Son varios días, no un interruptor. Con Rio ya tenés el look negro y la foto del ciervo; lo que falta es ordenar la home. Cambiar de plantilla ahora es tirar ese trabajo y empezar otra vez en algo que igual es una plantilla de Tienda Nube, no un sitio hecho a mano.
+
+**Si pregunta “¿hasta dónde podemos cambiar el look?”** (respuesta corta):
+
+> Logo, colores, fuentes de la lista, fondo del encabezado, barra de anuncio, orden de la home, banners, carruseles, textos, guía de talles, Instagram si conecta, y retoques chicos de CSS si tu plan lo muestra. Lo que no se puede en este plan es rediseñar el menú hamburguesa, los íconos del carrito o la ficha como si fuera otra marca — eso sería otro plan con código. Detalle para vos: [RIO-Y-LIMITES-TN.md](./RIO-Y-LIMITES-TN.md).
+
 Sobre el link de preview:
 
 > Es una maqueta para ver el orden; la tienda real sigue siendo Tienda Nube. No se «sube» el link: se replica en el diseñador.
@@ -89,8 +99,21 @@ No fijar fecha de producción hasta aprobar preview + tener imágenes.
 
 - Repos, `PROPUESTAS.md`, puertos locales
 - React, Esencial vs Impulso, FTP
+- La matriz “header / hamburguesa / qué no podés” — es para vos, no para leer en voz alta
 
-**Sí puede servir:** la tienda en vivo en el celular (scroll home + menú Estadios).
+**Sí puede servir:** la tienda en vivo en el celular (scroll home + menú Estadios). Si abrís el menú hamburguesa, mostrale que **el contenido** son sus categorías (Estadios, Legacy…) — eso sí se mantiene; lo que no vendemos es **otro** menú con otro dibujo o animación.
+
+---
+
+## Notas rápidas para vos (no leer al cliente)
+
+| Tema | Recordatorio |
+| --- | --- |
+| Prototipo React | Maqueta; TN no usa Vite/React. Ver [PREVIEW-VS-REAL.md](./PREVIEW-VS-REAL.md). |
+| Hamburguesa / íconos | Forma y animación = Rio. Solo color y **árbol de categorías** en admin. |
+| `compress` al scroll | Opción del tema; logo achica, íconos no. Ver [TIENDA-EN-VIVO.md](./TIENDA-EN-VIVO.md). |
+| Cambiar plantilla | Catálogo queda; diseño ~½–2+ días. No recomendado. |
+| Ipanema / otras gratis | Existen, pero = rehacer home. No ofrecer en este meet salvo que él insista. |
 
 ---
 

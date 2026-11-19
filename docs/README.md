@@ -8,6 +8,7 @@
 | --- | --- |
 | [../PROPUESTAS.md](../PROPUESTAS.md) | Fuente de verdad: qué sí / qué no, plan TN, orden de trabajo |
 | [REUNION.md](./REUNION.md) | Guion del meet con el dueño, checklist de aprobación, timeline |
+| [RIO-Y-LIMITES-TN.md](./RIO-Y-LIMITES-TN.md) | **Pre-meet:** TN vs Wix/React, cambio de plantilla, qué se toca en header/menú/home/ficha (Esencial + Rio) |
 | [NO-PROMETER.md](./NO-PROMETER.md) | Qué no vender ni prototipar como entrega |
 | [PREVIEW-VS-REAL.md](./PREVIEW-VS-REAL.md) | Prototipo local / host vs implementación en Tienda Nube |
 | [IMPLEMENTACION-TIENDA-NUBE.md](./IMPLEMENTACION-TIENDA-NUBE.md) | Pasos en el administrador (sin FTP) |
