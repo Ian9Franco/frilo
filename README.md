@@ -10,6 +10,7 @@ Este repo es **público** como muestra de proceso y entregables técnicos. El **
 | --- | --- | --- |
 | [`ciervo-negro/`](./ciervo-negro/) | 5173 | Espejo de referencia (tienda pública copiada). **No editar** — baseline para comparar. |
 | [`ciervo-negro-edicion/`](./ciervo-negro-edicion/) | 5174 | Propuesta implementada (etapas 1–5) para preview en reunión / host. |
+| [`ciervo-negro-com/`](./ciervo-negro-com/) | 5180 | Tienda propia (Next.js, Tailwind, Three.js) para publicar en Vercel. Root Directory: `ciervo-negro-com`. No entra en Tienda Nube. |
 | [`docs/`](./docs/) | — | Guiones, límites del alcance, pasos en el admin de Tienda Nube. |
 | [`PROPUESTAS.md`](./PROPUESTAS.md) | — | Alcance acordado: qué se puede publicar en TN sin código custom ni FTP. |
 
@@ -36,6 +37,16 @@ npm run dev
 ```
 
 Abre [http://localhost:5174](http://localhost:5174).
+
+**Tienda propia (.com):**
+
+```bash
+cd ciervo-negro-com
+npm install
+npm run dev
+```
+
+Abre [http://localhost:5180](http://localhost:5180). En Vercel, el Root Directory del proyecto es `ciervo-negro-com`. Detalle en [`ciervo-negro-com/README.md`](./ciervo-negro-com/README.md).
 
 Los prototipos **no** son la tienda real: no hay checkout, pagos ni sesiones. Las fotos de producto se cargan desde el CDN de Tienda Nube (hace falta internet).
 
