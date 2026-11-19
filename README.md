@@ -2,7 +2,7 @@
 
 Repositorio de trabajo freelance: prototipos locales y documentación para mejorar la vidriera de [CIERVO NEGRO](https://www.ciervonegro.com.ar) sobre **Tienda Nube** (plantilla **Rio**, plan **Esencial**).
 
-Este repo es **público** como muestra de proceso y entregables técnicos. El **negocio, la marca, el catálogo y las imágenes** pertenecen al cliente. El código de prototipo y la documentación son obra de [Ian Franco](https://github.com/Ian9Franco); ver [LICENSE](./LICENSE).
+Este repo es **público** como muestra de proceso y entregables técnicos. El **negocio, la marca, el catálogo y las imágenes** pertenecen al cliente. El código de prototipo y la documentación son obra de [Ian Franco](https://github.com/Ian9Franco); ver [LICENSE](./LICENSE) ([resumen en español](./LICENSE.es.md)).
 
 ## Contenido
 
